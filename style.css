@@ -32,3 +32,34 @@ body{
     justify-content: space-around;
 }
 
+.details{
+    display: flex;
+    justify-content:space-around;
+}
+
+.resume-det{
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.text h1{
+    font-size: 2.5rem;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+.text h4{
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.interest{
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+.interest h2{
+    font-size: 1.2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.text h4 a{
+    text-decoration: none;
+    color: black;
+}
