@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+
+}
+
+.nav{
+    width: 100%;
+    height: 5rem;
+    
+    align-items: center;
+    display: flex;
+    justify-content:space-around;
+    gap: 3rem;
+
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5rem;
+
+}
+.nav-logo h2{
+    size: 2rem;
+
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.about-section{
+  background: #f9f9f9;
+ padding: 10rem;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-container h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.about-intro {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 40px;
+}
+
+.contact-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  text-align: left;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.contact-card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.contact-card p {
+  font-size: 16px;
+  color: #555;
+  margin: 8px 0;
+}
+
+.contact-card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+}    
+
+.projects-section {
+  background: #f9f9f9;
+  padding: 60px 20px;
+}
+
+.projects-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.projects-container h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+ color: black;
+}
+
+.projects-intro {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Table Style */
+.projects-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.projects-table th,
+.projects-table td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.projects-table th {
+  background:beige;
+  color: black;
+}
+
+/* List Style */
+.projects-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.projects-list li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.skills-section {
+background: #f9f9f9;
+  padding: 60px 20px;
+}
+
+.skills-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skills-container h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+color: black;
+}
+
+.skills-intro {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+  text-align: left;
+}
+
+.skills-list li {
+  font-size: 18px;
+  color: #444;
+  margin: 10px 0;
+  padding-left: 25px;
+  position: relative;
+}
+
+.skills-list li::before {
+  content: "✔";
+  color:beige;
+  position: absolute;
+  left: 0;
+}
+
+.education-section {
+  background: #f9f9f9;
+  padding: 60px 20px;
+}
+
+.education-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.education-container h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+color: black;
+}
+
+.education-intro {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.education-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.education-table th,
+.education-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.education-table th {
+  background:beige;
+  color: black;
+  font-weight: bold;
+}
+
+.education-table tr:nth-child(even) {
+  background: #f2f2f2;
+}
+.contact-section{
+   background: #f9f9f9;
+  padding: 60px 20px;
+}
+.contact-form{
+    display: flex;
+    flex-direction:column;
+}
+.form{
+     display: flex;
+     flex-direction: column;
+     gap: 2rem;
+}
+.contact-section {
+ background: #f9f9f9;
+
+  padding: 60px 20px;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-container h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.contact-intro {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+.contact-form label {
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  height: 5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  background: beige;
+  color: black;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #0056b3;
+}
